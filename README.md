@@ -11,7 +11,7 @@ This is designed to run on HA Cloud. However, this can be run on any platform.
 
 At boot any environment variables (PHP_*) are written to /etc/php5/conf.d/user.ini
 
-Only names that start `PHP_` followed by a lowercase directive are used, e.g. `PHP_memory_limit=256M` or `PHP_session.upload_progress.enabled=0`.
+Only names that start `PHP_` followed by a lowercase directive are used, e.g. `PHP_memory_limit=256M` or `PHP_session.gc_maxlifetime=1440`.
 
 ### Docker Compose
 ```
