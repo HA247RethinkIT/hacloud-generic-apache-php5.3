@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+##
+## [Unreleased]
+### Fix
+- Only read environment variables that start with PHP_ followed by a lowercase ini directive
 
 ##
 ## [0.0.2]
